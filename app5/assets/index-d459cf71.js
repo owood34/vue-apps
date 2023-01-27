@@ -5042,10 +5042,10 @@ const _sfc_main$2 = {
   setup(__props) {
     const comp_one = ref({
       title: "Reactive Web page",
-      img: "./comp_one.png"
+      img: "../comp_one.png"
     });
     function imgChange() {
-      comp_one.value.img = comp_one.value.img === "./comp_one.png" ? "./banana-cat.gif" : "./comp_one.png";
+      comp_one.value.img = comp_one.value.img === "../comp_one.png" ? "../banana-cat.gif" : "../comp_one.png";
     }
     return (_ctx, _cache) => {
       return openBlock(), createElementBlock("div", null, [
