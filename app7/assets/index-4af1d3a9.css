@@ -1,0 +1,79 @@
+
+#body {
+  display: inline-grid;
+
+  grid-template-areas: 
+    'header header header header header header header header header header header header'
+    'label label . . . . firstName . . . . lastName'
+    'label label . . . . email . . . . .'
+    'label label . . . . greenShirt . yellowShirt . blueShirt .'
+    'label label . . . . sizes . . . . .'
+    'label label . . . . delivery . . . . .'
+    'Address . . . . . . . . . . .'
+    '. . . . . . street street street street street street'
+    '. . . . . . street2 street2 street2 street2 street2 street2'
+    '. . . . . . city city city city city city'
+    '. . . . . . zip zip zip zip zip zip zip' 
+    '. . . . . . . . . . . purchase';
+
+  background-color: rgb(15, 202, 15);
+  border-radius: 5px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  padding: 10px;
+}
+h3 {
+  color: white;
+}
+#fieldset {
+  background-color: white;
+}
+input {
+  grid-area: input;
+}
+label {
+  grid-area: label;
+}
+#firstName {
+  grid-area: firstName;
+}
+#lastName {
+  grid-area: lastName;
+}
+#blue {
+  grid-area: blueShirt;
+}
+#yellow {
+  grid-area: yellowShirt;
+}
+#green {
+  grid-area: greenShirt;
+}
+img {
+  height: 80%;
+}
+#sizes {
+  grid-area: sizes;
+}
+#Address {
+  grid-area: Address;
+}
+#delivery {
+  grid-area: delivery
+}
+#street {
+  grid-area: street;
+}
+#street2 {
+  grid-area: street2;
+}
+#city {
+  grid-area: city;
+}
+#zipCode {
+  grid-area: zip;
+}
+button {
+  grid-area: purchase;
+  background-color: rgb(15, 202, 15);
+}
