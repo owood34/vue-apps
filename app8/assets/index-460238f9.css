@@ -1,0 +1,38 @@
+
+body {
+        position: absolute;
+        background-color: rgb(231, 222, 222);
+        color: rgb(59, 46, 46);
+}
+img {
+        position: relative;
+        width: 30vw;
+        height: 50vh;
+        top: 100px;
+        right: -100px;
+}
+button {
+        position: relative;
+        height: 50vh;
+        top: -13.75vh;
+        right: -5.25vw;
+}
+a {
+      position: relative;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-decoration: none;
+      border: 1px solid rgb(163, 133, 133);
+      color: blueviolet;
+      padding: 10px;
+      top: -14.5vh;
+      right: -17.5vw;
+}
+p {
+      position: relative;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 1px solid rgb(163, 133, 133);
+      padding: 10px;
+      top: -12vh;
+      right: -5vw;
+}
+
