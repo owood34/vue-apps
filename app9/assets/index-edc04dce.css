@@ -1,0 +1,43 @@
+
+#body {
+    position: absolute;
+    width: 450px;
+    top: 15vh;
+    right: 40vw;
+}
+fieldset {
+    border: 4px lightblue solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue
+}
+#username {
+    position: relative;
+    right: -48px;
+}
+#password1 {
+    position: relative;
+    right: -52px;
+}
+#email {
+    position: relative;
+    right: -81px;
+}
+#phone {
+    position: relative;
+    right: -18px;
+}
+label {
+    margin: 10px;
+    padding-right: 10px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+span {
+    position: relative;
+    color: red;
+    right: -55px;
+}
+
