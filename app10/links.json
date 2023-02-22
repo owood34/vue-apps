@@ -11,12 +11,6 @@
         "artist": "Solas Composer",
         "length": "4:17"
     },
-    "link4": {
-        "title": "Reborn From Ashes",
-        "url": "./audio/reborn_from_ashes.wav",
-        "artist": "Solas Composer",
-        "length": "5:24"
-    },
     "link7": {
         "title": "Warrior",
         "url": "./audio/warrior.wav",
@@ -34,11 +28,5 @@
         "url": "./audio/they_wont_let_you_forget.wav",
         "artist": "Solas Composer",
         "length": "4:32"
-    },
-    "link10": {
-        "title": "The Old Hunters",
-        "url": "./audio/the_old_hunters.wav",
-        "artist": "Solas Composer",
-        "length": "5:56"
     }
 }
