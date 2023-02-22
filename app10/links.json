@@ -5,12 +5,6 @@
         "artist": "Solas Composer",
         "length": "3:43"
     },
-    "link3": {
-        "title": "Enchanted Knight",
-        "url": "./audio/enchanted_knight.wav",
-        "artist": "Solas Composer",
-        "length": "4:17"
-    },
     "link7": {
         "title": "Warrior",
         "url": "./audio/warrior.wav",
@@ -22,11 +16,5 @@
         "url": "./audio/revenant.wav",
         "artist": "Solas Composer",
         "length": "3:20"
-    },
-    "link9": {
-        "title": "They Won't Let You Forget",
-        "url": "./audio/they_wont_let_you_forget.wav",
-        "artist": "Solas Composer",
-        "length": "4:32"
     }
 }
