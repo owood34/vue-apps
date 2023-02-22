@@ -16,5 +16,11 @@
         "url": "./audio/revenant.wav",
         "artist": "Solas Composer",
         "length": "3:20"
+    },
+    "link9": {
+        "title":"Enchanted Knight",
+        "url": "./audio/enchanted_knight.wav",
+        "artist":"Solas Composer",
+        "length": "4:17"
     }
 }
