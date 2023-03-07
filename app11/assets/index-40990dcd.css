@@ -1,0 +1,59 @@
+
+#Index_Body {
+    display: flex;
+    flex-direction: column;
+    border: 3px darkred solid;
+    width: 200px;
+    height: 200px;
+}
+button {
+    background: lightskyblue;
+}
+label, input {
+    text-align: center;
+}
+#type, #label_t {
+    transform: translateY(20px);
+}
+button {
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 75px;
+    height: 75px;
+    transform: translate(60px, 40px);
+}
+
+#card {
+        display: inline-flex;
+        border: 1px solid darkred;
+        background: white;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        justify-content: space-evenly;
+}
+span {
+        text-align: center;
+}
+#title {
+        font-size: 25px;
+}
+
+#body {
+    margin-top: -100px;
+    margin-right: 0px;
+}
+#card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 600px;
+    background: red;
+    border: 3px solid darkred;
+    transform: translate(-1px ,-2px);
+}
+h1 {
+    transform: translate(1300px, 150px);
+    font-size: 50px;
+}
