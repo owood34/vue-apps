@@ -1,0 +1,57 @@
+
+h2[data-v-08607fe1] {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      transform: translateY(20px)
+}
+main[data-v-08607fe1] {
+      display: flex;
+      flex-direction: column;
+      margin: 40px;
+      padding: 20px;
+      border: 1px solid gray
+}
+p[data-v-08607fe1] {
+      border: 1px solid grey;
+}
+button[data-v-08607fe1] {
+        width: 5vw;
+        margin: 40px;
+        text-align: center;
+}
+button[data-v-08607fe1]:hover {
+        background-color: #3C3
+}
+
+h2[data-v-91b646bb] {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        transform: translateY(20px)
+}
+div[data-v-91b646bb] {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        padding: 20px;
+        border: 1px solid gray
+}
+label[data-v-91b646bb] {
+        transform: translateY(20px);
+        text-align: center;
+        opacity: 0.5;
+}
+label[data-v-91b646bb]:hover {
+        z-index: -5
+}
+input[data-v-91b646bb]:focus {
+        z-index: 1;
+}
+button[data-v-91b646bb] {
+        width: 5vw;
+        text-align: center;
+}
+button[data-v-91b646bb]:hover {
+        background-color: #3C3
+}

@@ -1,0 +1,39 @@
+
+#card[data-v-3769d600] {
+        display: inline-flex;
+        border: 1px solid blue;
+        background: white;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        justify-content: space-evenly;
+}
+img[data-v-3769d600] {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+}
+span[data-v-3769d600] {
+        text-align: center;
+}
+#title[data-v-3769d600] {
+        font-size: 25px;
+}
+#big_card[data-v-3769d600] {
+        display: inline-flex;
+        background: white;
+        flex-direction: column;
+        flex-basis: 70%;
+        flex-wrap: wrap;
+        width: 800px;
+        height: 500px;
+        justify-content: space-between;
+}
+#big_card > img[data-v-3769d600] {
+        width: 300px;
+        height: 300px;
+}
+#big_card > p[data-v-3769d600] {
+        transform: translate(350px, -300px)
+}
+
