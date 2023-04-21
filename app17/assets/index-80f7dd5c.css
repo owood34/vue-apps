@@ -1,0 +1,33 @@
+
+.box-enter-active {
+    animation: fade 1s;
+}
+.box-leave-active, .box-leave-from {
+    animation: fade 1s reverse
+}
+@keyframes fade {
+0% {
+      opacity: 0;
+}
+100% {
+      opacity: 0.8;
+}
+}
+button {
+    z-index: 10;
+}
+.box_stable {
+    position: absolute;
+    z-index: -10;
+    top: 115px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+.box {
+    position: absolute;
+    z-index: -10;
+    border: 1px solid black;
+}

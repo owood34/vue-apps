@@ -1,0 +1,56 @@
+
+[data-v-8b662f5d]:root {
+    --style: white;
+}
+main[data-v-8b662f5d] {
+    width: 50vw;
+    height: 80vw;
+}
+hr[data-v-8b662f5d] {
+    transform: translateY(-21px);
+    width: 80vw;
+}
+button[data-v-8b662f5d] {
+    background-color: var(--style)
+}
+
+
+:root {
+        --style: black;
+}
+#app {
+        display: flex;
+        flex-direction: row;
+}
+img {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        z-index: 10;
+}
+h3 {
+        position: absolute;
+        top: 25px;
+        left: 200px;
+        max-width: 100px;
+}
+svg {
+        z-index: -10;
+        background-color: white !important;
+        border: 3px solid var(--style)
+}
+main {
+        background-color: white;
+}
+nav > * {
+        border: 3px solid var(--style);
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+}
+button {
+        border: 1px solid gray;
+        background-color: white;
+}
+
